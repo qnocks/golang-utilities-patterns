@@ -31,6 +31,12 @@ func main() {
 
 Ответ:
 ```
-...
+error
 
+Псевдокод для test():
+    err.type = *customError
+    err.data = nil
+    return err
+    
+вся структура не равна nil (err.type = *customError)
 ```

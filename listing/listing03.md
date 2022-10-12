@@ -22,6 +22,14 @@ func main() {
 
 Ответ:
 ```
-...
+<nil>
+false
 
+Псевдокод для Foo():
+    err.type = *os.PathError
+    err.data = nil
+    return err
+
+<nil>: печтатает данные, не тип интерфейса и не всю структуру интерфейса
+false: вся структура не равна nil (err.type = *os.PathError)
 ```
