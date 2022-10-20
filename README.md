@@ -1,12 +1,30 @@
-# WB Tech: level # 2 (Golang)
-## Как делать задания:
-Никаких устных решений — только код. Одно решение — один файл с хорошо откомментированным кодом. Каждое решение или невозможность решения надо объяснить.
+# Go utilities and patterns
 
-Разрешается и приветствуется использование любых справочных ресурсов, привлечение сторонних экспертов и т.д. и т.п.
+## Tasks
 
+### Design Patterns
 
-Основной критерий оценки — четкое понимание «как это работает». Некоторые задачи можно решить несколькими способами, в этом случае требуется привести максимально возможное количество вариантов и обосновать наиболее оптимальный из них, если таковой имеется.
+Implement the patterns, explain the applicability of each pattern, the pros and cons, as well as real examples of using the pattern in practice.
 
-Можно задавать вопросы, как по условию задач, так и об их решении.
+1. Facade 
+2. Builder
+3. Visitor
+4. Command
+5. Chain of responsibility
+6. Factory method
+7. Strategy
+8. State
 
-Для задач на разработку (/develop) все тест-кейсы должны быть оформлены в виде отдельных тестов.
+Check [pattern](pattern) directory
+
+### Development
+
+Develop utility according to description
+
+Check `task.go` files in [develop](develop) directory for the information 
+
+### Listing 
+
+Reading and understanding code
+
+Check [listing](listing) directory for more information
